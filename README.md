@@ -14,3 +14,7 @@ pip install revChatGPT xmltodict flask
 2. 如果我没猜错的话，所有的用户都是共用一个 conversion
 3. 微信公众号被动回复消息文档：[点击这里](https://developers.weixin.qq.com/doc/offiaccount/Message_Management/Passive_user_reply_message.html)
 4. 代码中的 GPT_ENGINE 应该指的是 model，我这里用的是 `text-davinci-003`，这是个**付费模型**，测试下来，这个模型回复速度才能达到微信公众号要求的 5s 限制，偶尔会有超时，但是大部分都正常。如果使用免费的模型，需要 15s 反应时间，可能一直会提示 `该公众号提供的服务出现故障，请稍后再试`。
+
+## 成果展示
+![IMG_1949(20230208-144708)](https://user-images.githubusercontent.com/25380989/217459462-e57707e2-dee9-4140-8462-e13d09b51eba.JPEG)
+ 
